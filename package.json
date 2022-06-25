@@ -1,19 +1,20 @@
 {
-  "name": "lost-shirt",
+  "name": "gulp-2022",
   "version": "1.0.0",
   "description": "",
   "main": "gulpfile.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Dtulumbasov28/Lost-shirt.git"
+    "url": "git+https://github.com/Dtulumbasov28/GULP-2022.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Dtulumbasov28/Lost-shirt/issues"
+    "url": "https://github.com/Dtulumbasov28/GULP-2022.git/issues"
   },
-  "homepage": "https://github.com/Dtulumbasov28/Lost-shirt#readme"
+  "homepage": "https://github.com/Dtulumbasov28/GULP-2022.git#readme"
 }
