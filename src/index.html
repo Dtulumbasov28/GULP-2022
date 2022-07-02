@@ -1,72 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   @@include('html/head.html', { "title":"Главная" })
-  <style type="text/css">
-    .svg-fb-dims {
-      fill: white ;
-      width: 30px;
-      height: 30px;
-    }
-    .svg-inst-dims {
-      fill: white;
-      width: 20px;
-      height: 20px;
-    }
-    .svg-tw-dims {
-      fill: white;
-      width: 20px;
-      height: 20px;
-    }
-    .svg-vk-dims {
-      fill: white;
-      width: 20px;
-      height: 20px;
-    }
-  </style>
   <body>
     @@include('html/header.html', {})
     <main>
-      <h1>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis
-        minus quibusdam perspiciatis, saepe atque porro voluptate in dolorem quo
-        eius excepturi provident quam non enim voluptatibus fugit doloremque ad
-        est.
-      </h1>
-      <ul>
-        <li>
-          <div class="icon-box">
-            <svg class="svg-fb-dims">
-              <use xlink:href="@img/icons/icons.svg#fb"></use>
-            </svg>
-          </div>
-        </li>
-        <l>
-          <div class="icon-box">
-            <!-- inst -->
-            <img
-              src="@img/icons/icons.svg#inst"
-              class="svg-inst-dims"
-              alt="inst"
-            />
-          </div>
-          <h2>inst</h2>
-        </l>
-        <li title="tw">
-          <div class="icon-box">
-            <!-- tw -->
-            <img src="@img/icons/icons.svg#tw" class="svg-tw-dims" alt="tw" />
-          </div>
-          <h2>tw</h2>
-        </li>
-        <li title="vk">
-          <div class="icon-box">
-            <!-- vk -->
-            <img src="@img/icons/icons.svg#vk" class="svg-vk-dims" alt="vk" />
-          </div>
-          <h2>vk</h2>
-        </li>
-      </ul>
-      <img width="100px" src="@img/reviewVasily.png" alt="" />
     </main>
     @@include('html/footer.html', {})
     <script src="js/app.min.js"></script>
