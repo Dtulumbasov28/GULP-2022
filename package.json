@@ -23,7 +23,7 @@
   "homepage": "https://github.com/Dtulumbasov28/GULP-2022.git#readme",
   "devDependencies": {
     "browser-sync": "latest",
-    "del": "latest",
+    "del": "^6.1.1",
     "gulp": "latest",
     "gulp-autoprefixer": "latest",
     "gulp-clean-css": "latest",
